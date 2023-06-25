@@ -1,0 +1,118 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --off-white: hsl(0, 0%, 94%);
+    --Light-grey: hsl(0, 0%, 86%);
+    --smokey-grey: hsl(0, 1%, 44%);
+    --off-black: hsl(0, 0%, 8%);
+    --purple: hsl(259, 100%, 65%);
+    --light-red: hsl(0, 100%, 67%);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--off-white);
+}
+
+input {
+    outline: none;
+    border: none;
+    width: 100%;
+    font-weight: 700;
+}
+
+/* container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-wrapper {
+    width: 100%;
+    max-width: 550px;
+    background-color: var(--white);
+    padding: 20px;
+    -webkit-border-radius: 20px;
+    -webkit-border-bottom-right-radius: 100px;
+    -moz-border-radius: 20px;
+    -moz-border-radius-bottomright: 100px;
+    border-radius: 20px;
+    border-bottom-right-radius: 100px;
+}
+
+/* display */
+.d-flex {
+    display: flex;
+}
+
+.d-flex.justify-content-between {
+    justify-content: space-between;
+}
+
+.w-100px {
+    width: 100px;
+}
+
+/* font styling */
+.fs-3 {
+    font-size: 32px;
+}
+
+.fs-1 {
+    font-size: 64px;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-800 {
+    font-weight: 800;
+}
+
+.text-purple {
+    color: var(--purple);
+}
+
+.text-off-black {
+    color: var(--off-black);
+}
+
+.rounded {
+    border-radius: 10px;
+}
+
+.d-flex.g-2 {
+    gap: 20px;
+}
+
+/* components */
+.box-title {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--smokey-grey);
+}
+
+.box-input {
+    padding: .5rem;
+    border: 1px solid var(--Light-grey);
+}
+
+.btn {
+    padding: 10px;
+    border: none;
+    border-radius: 50%; 
+    outline: none;
+    background-color: var(--purple);
+    color: var(--off-white);
+
+}
+
+.btn:hover {
+    background-color: var(--off-black);
+}
